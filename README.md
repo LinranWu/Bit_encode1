@@ -32,7 +32,7 @@ The bit stream encryption cipher that this program implements will do a little m
 
 ### Sample Output: 
 
-[wu.5125@cse lab2] bit_encode1
+[commandline@linux] bit_encode1
 
 enter cleartext: two fat dogs
 
@@ -50,6 +50,22 @@ hex ciphertext:
  24 88 12 23 00 83 24 23 04 84 
  02 8A 
 
-[wu.5125@cse lab2]$ 
+[commandline@linux]$ 
+
+---
+
+This program has also been introduced **#ifdef PROMPT and #endif** preprocessor statements to modify the program such that it will read clear text and the 4-bit key input without printing any prompts at all and prints no other output other than the cipher text without concern for columns. Input will 
+be coming from a redirected input source on the command line.
+
+### Sample output: 
+[jones.5684@cse-fl1 lab2] bit_encode2 < encode.input
+
+8B 61 87 E2 15 EC BD E5 BD E7 15 EF 89 E1 B9 E7 B1 EC 87 6F A7 
+
+encode.input contains these two lines:
+
+ ohio state university 
+
+ 1010
 
 ---
