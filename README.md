@@ -58,7 +58,7 @@ This program has also been introduced **#ifdef PROMPT and #endif** preprocessor 
 be coming from a redirected input source on the command line.
 
 ### Sample output: 
-[jones.5684@cse-fl1 lab2] bit_encode2 < encode.input
+[commandline@linux] bit_encode2 < encode.input
 
 8B 61 87 E2 15 EC BD E5 BD E7 15 EF 89 E1 B9 E7 B1 EC 87 6F A7 
 
